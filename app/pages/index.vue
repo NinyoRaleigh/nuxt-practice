@@ -1,4 +1,5 @@
 <template>
+  <NuxtLayout name="practice-layout">
   <div>
     <Button>Hello</Button>
     <p class="font-roboto">
@@ -8,6 +9,7 @@
       distinctio molestias id neque.
     </p>
   </div>
+    </NuxtLayout>
 </template>
 
 <script setup lang="ts"></script>
